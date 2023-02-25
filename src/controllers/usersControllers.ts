@@ -24,15 +24,16 @@ export const getUsers = async (
   }
 };
 
-export const registerUser = (
+export const registerUser = async (
   req: Request<Record<string, unknown>, Record<string, unknown>, UserRegister>,
   res: Response,
   next: NextFunction
 ) => {
   try {
-    const { email, name, image, password, phoneNumber, username } = req.body;
+    const { email, name, password, phoneNumber, username } = req.body;
+    const image = req.file?.filename;
 
-    const hashedPassword = bcryptjs.hash(password, 10);
+    const hashedPassword = await bcryptjs.hash(password, 10);
 
     const user = User.create({
       email,
@@ -50,5 +51,7 @@ export const registerUser = (
       500,
       "Couldn't create the user."
     );
+
+    next(customError);
   }
 };
