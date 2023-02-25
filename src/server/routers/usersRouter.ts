@@ -1,6 +1,11 @@
 import { Router } from "express";
-import { getUsers, registerUser } from "../controllers/usersControllers.js";
+import {
+  getUsers,
+  loginUser,
+  registerUser,
+} from "../controllers/usersControllers.js";
 import multer from "multer";
+import auth from "../middlewares/auth.js";
 
 export const usersRouter = Router();
 
@@ -15,3 +20,4 @@ const upload = multer({ storage });
 
 usersRouter.get("/users", getUsers);
 usersRouter.post("/register", upload.single("image"), registerUser);
+usersRouter.post("/login", auth, loginUser);
