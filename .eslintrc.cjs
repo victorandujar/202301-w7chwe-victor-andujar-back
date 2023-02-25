@@ -22,6 +22,12 @@ module.exports = {
         "@typescript-eslint/naming-convention": "off",
       },
     },
+    {
+      files: ["src/**/routers/**/*.ts"],
+      rules: {
+        "@typescript-eslint/no-unsafe-call": "off",
+      },
+    },
   ],
   parserOptions: {
     ecmaVersion: "latest",

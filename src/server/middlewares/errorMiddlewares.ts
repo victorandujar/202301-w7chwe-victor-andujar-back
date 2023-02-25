@@ -1,6 +1,6 @@
 import createDebug from "debug";
 import { type Response, type Request, type NextFunction } from "express";
-import { CustomError } from "../CustomError/CustomError";
+import { CustomError } from "../../CustomError/CustomError";
 
 const debug = createDebug("users:server");
 
