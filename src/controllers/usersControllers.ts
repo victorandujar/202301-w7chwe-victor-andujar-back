@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from "express";
+import { type NextFunction, type Request, type Response } from "express";
 import { CustomError } from "../CustomError/CustomError.js";
 import { User } from "../database/models/Users.js";
 
@@ -13,7 +13,7 @@ export const getUsers = async (
     res.status(200).json({ users });
   } catch (error) {
     const customError = new CustomError(
-      error.message,
+      (error as Error).message,
       500,
       "Couldn't retrieve users."
     );
