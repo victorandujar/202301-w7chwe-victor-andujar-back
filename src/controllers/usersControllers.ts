@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import { CustomError } from "../CustomError/CustomError";
-import { User } from "../database/models/Users";
+import { CustomError } from "../CustomError/CustomError.js";
+import { User } from "../database/models/Users.js";
 
 export const getUsers = async (
   req: Request,
