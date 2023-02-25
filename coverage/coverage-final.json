@@ -1,0 +1,388 @@
+{
+  "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\CustomError\\CustomError.ts": {
+    "path": "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\CustomError\\CustomError.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 9, "column": 4 },
+        "end": { "line": 9, "column": 19 }
+      },
+      "1": {
+        "start": { "line": 6, "column": 11 },
+        "end": { "line": 6, "column": 29 }
+      },
+      "2": {
+        "start": { "line": 7, "column": 11 },
+        "end": { "line": 7, "column": 32 }
+      },
+      "3": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 1, "column": 13 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": { "line": 4, "column": 2 },
+          "end": { "line": 4, "column": null }
+        },
+        "loc": {
+          "start": { "line": 7, "column": 32 },
+          "end": { "line": 10, "column": 3 }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 2, "1": 2, "2": 2, "3": 3 },
+    "f": { "0": 2 },
+    "b": {}
+  },
+  "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\database\\models\\Users.ts": {
+    "path": "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\database\\models\\Users.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 1, "column": 41 }
+      },
+      "1": {
+        "start": { "line": 3, "column": 19 },
+        "end": { "line": 30, "column": 2 }
+      },
+      "2": {
+        "start": { "line": 32, "column": 13 },
+        "end": { "line": 32, "column": 55 }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": { "0": 2, "1": 2, "2": 2 },
+    "f": {},
+    "b": {}
+  },
+  "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\server\\controllers\\usersControllers.ts": {
+    "path": "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\server\\controllers\\usersControllers.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 2, "column": 0 },
+        "end": { "line": 2, "column": 63 }
+      },
+      "1": {
+        "start": { "line": 3, "column": 0 },
+        "end": { "line": 3, "column": 54 }
+      },
+      "2": {
+        "start": { "line": 5, "column": 0 },
+        "end": { "line": 5, "column": 32 }
+      },
+      "3": {
+        "start": { "line": 7, "column": 24 },
+        "end": { "line": 25, "column": 1 }
+      },
+      "4": {
+        "start": { "line": 12, "column": 2 },
+        "end": { "line": 24, "column": null }
+      },
+      "5": {
+        "start": { "line": 13, "column": 18 },
+        "end": { "line": 13, "column": 42 }
+      },
+      "6": {
+        "start": { "line": 15, "column": 4 },
+        "end": { "line": 15, "column": 36 }
+      },
+      "7": {
+        "start": { "line": 17, "column": 24 },
+        "end": { "line": 20, "column": null }
+      },
+      "8": {
+        "start": { "line": 23, "column": 4 },
+        "end": { "line": 23, "column": 22 }
+      },
+      "9": {
+        "start": { "line": 7, "column": 13 },
+        "end": { "line": 7, "column": 24 }
+      },
+      "10": {
+        "start": { "line": 27, "column": 28 },
+        "end": { "line": 60, "column": 1 }
+      },
+      "11": {
+        "start": { "line": 32, "column": 2 },
+        "end": { "line": 59, "column": null }
+      },
+      "12": {
+        "start": { "line": 34, "column": 6 },
+        "end": { "line": 34, "column": 14 }
+      },
+      "13": {
+        "start": { "line": 35, "column": 18 },
+        "end": { "line": 35, "column": 36 }
+      },
+      "14": {
+        "start": { "line": 37, "column": 27 },
+        "end": { "line": 37, "column": 60 }
+      },
+      "15": {
+        "start": { "line": 39, "column": 17 },
+        "end": { "line": 48, "column": 6 }
+      },
+      "16": {
+        "start": { "line": 50, "column": 4 },
+        "end": { "line": 50, "column": 35 }
+      },
+      "17": {
+        "start": { "line": 52, "column": 24 },
+        "end": { "line": 55, "column": null }
+      },
+      "18": {
+        "start": { "line": 58, "column": 4 },
+        "end": { "line": 58, "column": 22 }
+      },
+      "19": {
+        "start": { "line": 27, "column": 13 },
+        "end": { "line": 27, "column": 28 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 7, "column": 24 },
+          "end": { "line": 7, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 4 },
+          "end": { "line": 25, "column": 1 }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 27, "column": 28 },
+          "end": { "line": 27, "column": 33 }
+        },
+        "loc": {
+          "start": { "line": 31, "column": 4 },
+          "end": { "line": 60, "column": 1 }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 0,
+      "8": 0,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 2,
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 0,
+      "18": 0,
+      "19": 2
+    },
+    "f": { "0": 1, "1": 2 },
+    "b": {}
+  },
+  "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\server\\middlewares\\errorMiddlewares.ts": {
+    "path": "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\server\\middlewares\\errorMiddlewares.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 1, "column": 32 }
+      },
+      "1": {
+        "start": { "line": 3, "column": 0 },
+        "end": { "line": 3, "column": 60 }
+      },
+      "2": {
+        "start": { "line": 5, "column": 14 },
+        "end": { "line": 5, "column": 41 }
+      },
+      "3": {
+        "start": { "line": 7, "column": 29 },
+        "end": { "line": 15, "column": 1 }
+      },
+      "4": {
+        "start": { "line": 12, "column": 16 },
+        "end": { "line": 12, "column": 76 }
+      },
+      "5": {
+        "start": { "line": 14, "column": 2 },
+        "end": { "line": 14, "column": 14 }
+      },
+      "6": {
+        "start": { "line": 7, "column": 13 },
+        "end": { "line": 7, "column": 29 }
+      },
+      "7": {
+        "start": { "line": 17, "column": 28 },
+        "end": { "line": 28, "column": 1 }
+      },
+      "8": {
+        "start": { "line": 23, "column": 2 },
+        "end": { "line": 23, "column": 23 }
+      },
+      "9": {
+        "start": { "line": 25, "column": 2 },
+        "end": { "line": 27, "column": 69 }
+      },
+      "10": {
+        "start": { "line": 17, "column": 13 },
+        "end": { "line": 17, "column": 28 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 7, "column": 29 },
+          "end": { "line": 7, "column": null }
+        },
+        "loc": {
+          "start": { "line": 11, "column": 4 },
+          "end": { "line": 15, "column": 1 }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 17, "column": 28 },
+          "end": { "line": 17, "column": null }
+        },
+        "loc": {
+          "start": { "line": 22, "column": 4 },
+          "end": { "line": 28, "column": 1 }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 26, "column": 12 },
+          "end": { "line": 26, "column": 35 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 26, "column": 12 },
+            "end": { "line": 26, "column": 28 }
+          },
+          {
+            "start": { "line": 26, "column": 32 },
+            "end": { "line": 26, "column": 35 }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 27, "column": 19 },
+          "end": { "line": 27, "column": 65 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 27, "column": 19 },
+            "end": { "line": 27, "column": 38 }
+          },
+          {
+            "start": { "line": 27, "column": 42 },
+            "end": { "line": 27, "column": 65 }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1
+    },
+    "f": { "0": 1, "1": 1 },
+    "b": { "0": [1, 0], "1": [1, 0] }
+  },
+  "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\server\\routers\\usersRouter.ts": {
+    "path": "C:\\Users\\victo\\Documents\\Bootcamp\\Botcamp Challenges\\Week 7\\202301-w7chwe-victor-andujar-back\\src\\server\\routers\\usersRouter.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 1, "column": 0 },
+        "end": { "line": 1, "column": 33 }
+      },
+      "1": {
+        "start": { "line": 2, "column": 0 },
+        "end": { "line": 2, "column": 76 }
+      },
+      "2": {
+        "start": { "line": 3, "column": 0 },
+        "end": { "line": 3, "column": 28 }
+      },
+      "3": {
+        "start": { "line": 5, "column": 13 },
+        "end": { "line": 5, "column": 36 }
+      },
+      "4": {
+        "start": { "line": 7, "column": 16 },
+        "end": { "line": 12, "column": 2 }
+      },
+      "5": {
+        "start": { "line": 10, "column": 4 },
+        "end": { "line": 10, "column": 38 }
+      },
+      "6": {
+        "start": { "line": 14, "column": 15 },
+        "end": { "line": 14, "column": 34 }
+      },
+      "7": {
+        "start": { "line": 16, "column": 0 },
+        "end": { "line": 16, "column": 36 }
+      },
+      "8": {
+        "start": { "line": 17, "column": 0 },
+        "end": { "line": 17, "column": 68 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 9, "column": 2 },
+          "end": { "line": 9, "column": 10 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 30 },
+          "end": { "line": 11, "column": 3 }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "f": { "0": 1 },
+    "b": {}
+  }
+}
