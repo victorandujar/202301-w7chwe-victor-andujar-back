@@ -17,5 +17,7 @@ export const getUsers = async (
       500,
       "Couldn't retrieve users."
     );
+
+    next(customError);
   }
 };
