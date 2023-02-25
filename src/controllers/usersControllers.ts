@@ -1,6 +1,8 @@
 import { type NextFunction, type Request, type Response } from "express";
 import { CustomError } from "../CustomError/CustomError.js";
 import { User } from "../database/models/Users.js";
+import { type UserRegister } from "../types/types.js";
+import bcryptjs from "bcryptjs";
 
 export const getUsers = async (
   req: Request,
@@ -19,5 +21,34 @@ export const getUsers = async (
     );
 
     next(customError);
+  }
+};
+
+export const registerUser = (
+  req: Request<Record<string, unknown>, Record<string, unknown>, UserRegister>,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const { email, name, image, password, phoneNumber, username } = req.body;
+
+    const hashedPassword = bcryptjs.hash(password, 10);
+
+    const user = User.create({
+      email,
+      name,
+      password: hashedPassword,
+      phoneNumber,
+      username,
+      image,
+    });
+
+    res.status(201).json({ user });
+  } catch (error) {
+    const customError = new CustomError(
+      "Couldn't create the user.",
+      500,
+      "Couldn't create the user."
+    );
   }
 };

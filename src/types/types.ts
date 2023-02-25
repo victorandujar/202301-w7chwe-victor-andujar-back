@@ -7,4 +7,5 @@ export interface UserRegister extends UserLogin {
   phoneNumber: string;
   name: string;
   password: string;
+  image: string;
 }
