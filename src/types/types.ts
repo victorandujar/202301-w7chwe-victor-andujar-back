@@ -8,4 +8,6 @@ export interface UserRegister extends UserLogin {
   name: string;
   password: string;
   image: string;
+  friends: string[];
+  enemies: string[];
 }

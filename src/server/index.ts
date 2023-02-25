@@ -1,6 +1,6 @@
 import express from "express";
 import morgan from "morgan";
-import { usersRouter } from "../routers/usersRouter.js";
+import { usersRouter } from "./routers/usersRouter.js";
 import cors from "cors";
 
 export const app = express();

@@ -21,6 +21,12 @@ const UserSchema = new Schema({
   phoneNumber: {
     type: String,
   },
+  friends: {
+    type: String,
+  },
+  enemies: {
+    type: String,
+  },
 });
 
 export const User = model("User", UserSchema, "users");
