@@ -22,9 +22,12 @@ const UserSchema = new Schema({
     type: String,
   },
   friends: {
-    type: String,
+    type: [Schema.Types.ObjectId],
   },
   enemies: {
+    type: [Schema.Types.ObjectId],
+  },
+  image: {
     type: String,
   },
 });
