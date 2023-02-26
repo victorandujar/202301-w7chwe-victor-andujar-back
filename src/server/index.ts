@@ -2,6 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import { usersRouter } from "./routers/usersRouter.js";
 import cors from "cors";
+import { generalError, notFoundError } from "./middlewares/errorMiddlewares.js";
 
 export const app = express();
 app.disable("x-powered-by");
@@ -18,3 +19,6 @@ app.use(express.json());
 app.use(cors(corsOptions));
 
 app.use("/users", usersRouter);
+
+app.use(notFoundError);
+app.use(generalError);
